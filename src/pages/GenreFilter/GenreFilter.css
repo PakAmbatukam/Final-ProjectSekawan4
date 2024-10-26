@@ -1,0 +1,68 @@
+body {
+    background-color: black; /* Latar belakang hitam untuk seluruh halaman */
+    color: white; /* Teks berwarna putih */
+    font-family: 'Arial', sans-serif; /* Font yang lebih modern */
+  }
+  
+  .container {
+    max-width: 1200px; /* Lebar maksimal untuk konten */
+    margin: 0 auto; /* Pusatkan konten */
+    padding: 20px; /* Tambahkan padding */
+  }
+  
+  h1 {
+    text-align: center; /* Pusatkan judul */
+    margin-bottom: 20px; /* Ruang di bawah judul */
+  }
+  
+  .genre-buttons {
+    display: flex; /* Gunakan flexbox untuk tata letak tombol */
+    justify-content: center; /* Pusatkan tombol */
+    margin-bottom: 30px; /* Ruang di bawah tombol */
+    flex-wrap: wrap; /* Membungkus tombol jika layar kecil */
+  }
+  
+  .genre-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4757; /* Warna merah */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px; /* Ruang antara tombol */
+    transition: background-color 0.3s ease;
+  }
+  
+  .genre-button:hover {
+    background-color: #ff6b81; /* Warna saat hover */
+  }
+  
+  .movie-grid {
+    display: grid; /* Menggunakan grid untuk tata letak movie */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Membuat grid responsif */
+    gap: 20px; /* Ruang antar film */
+  }
+  
+  .movie-card {
+    background-color: #333; /* Warna latar belakang untuk kartu film */
+    border-radius: 10px; /* Sudut membulat */
+    overflow: hidden; /* Menghapus overflow */
+    transition: transform 0.3s; /* Efek transisi saat hover */
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+  }
+  
+  .movie-poster {
+    width: 100%; /* Lebar poster 100% */
+    height: auto; /* Tinggi otomatis */
+  }
+  
+  .movie-title {
+    padding: 10px; /* Ruang di dalam kartu */
+    text-align: center; /* Pusatkan teks judul */
+    color: white; /* Teks judul berwarna putih */
+  }
+  

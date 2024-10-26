@@ -1,0 +1,53 @@
+/* RateMovie.css */
+.rateMovie {
+    text-align: center;
+  }
+  
+  .stars {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .star {
+    font-size: 2rem; /* Ukuran bintang */
+    color: gray; /* Warna default */
+    transition: color 0.3s; /* Animasi halus saat berubah warna */
+  }
+  
+  .star.filled {
+    color: gold; /* Warna bintang yang terisi */
+  }
+  
+  .button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff; /* Warna tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Tanpa border */
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer; /* Kursor pointer */
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+  
+  .explanation {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: green; /* Warna untuk penjelasan */
+  }
+
+  .delete-button {
+    background-color: #ff4d4d; /* Warna merah untuk menandakan hapus */
+    color: white;
+  }
+
+  .button {
+    margin-bottom: 10px; /* Atur jarak bawah sesuai kebutuhan */
+  }
+  
+  
